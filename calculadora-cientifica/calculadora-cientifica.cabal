@@ -1,0 +1,22 @@
+cabal-version:       >=1.10
+name:                calculadora-cientifica
+version:             0.1.0.0
+build-type:          Simple
+
+executable calculadora-cientifica
+  main-is:             Main.hs
+  hs-source-dirs:      src
+  other-modules:
+    Calculadora.Basicas
+    Calculadora.Trigonometria
+    Calculadora.Parsing
+    Calculadora.Estadistica
+    Calculadora.Logaritmos
+  build-depends:
+    base >=4.7 && <5,
+    parsec,
+    statistics,
+    vector
+  default-language:    Haskell2010
+
+  
