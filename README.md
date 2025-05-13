@@ -1,2 +1,2 @@
-# Calculadora-cienticero-Haskel
+# Calculadora-cienticero-Haskell
 Calculadora Cientifica de haskell
